@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790359026361,
+      "tag": "0000_learn_with_surendra_core_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790359072138,
+      "tag": "0001_storage_policies_admin_only",
+      "breakpoints": true
+    }
+  ]
+}
