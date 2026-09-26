@@ -29,12 +29,6 @@ export function ProductCard({ p }: { p: ProductListItem }) {
           ) : null}
         </div>
       </Link>
-      <button
-        type="button"
-        aria-label={saved ? "Remove from wishlist" : "Save to wishlist"}
-        onClick={async () => setSaved(await toggleWishlist(p.id, saved))}
-        className="absolute hidden"
-      />
       <div className="flex flex-1 flex-col p-5">
         <div className="flex items-center justify-between">
           <span className="label-mono uppercase">{p.category?.name ?? "Notes"}</span>
